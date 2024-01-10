@@ -30,9 +30,6 @@ enum StatusCode {
 
 const numberOrder: number[] = [1, 2, 3]
 
-// Tulples 
-
-
 function greet (person: Person) {
   return `Hello ${person.name}, age is ${person.age}`
 }
