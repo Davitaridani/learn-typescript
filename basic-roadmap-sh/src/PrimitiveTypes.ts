@@ -29,7 +29,6 @@ function printObj (param : {name: string, age?: number}) {
 
 printObj({name: 'davit'});
 printObj({name: 'davit', age: 123});
-
 // Union Types
 function printId (id: number | string) {
   if( typeof id === "string") {
