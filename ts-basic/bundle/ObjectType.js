@@ -12,7 +12,6 @@ var StatusCode;
     StatusCode[StatusCode["InternalServerError"] = 500] = "InternalServerError";
 })(StatusCode || (StatusCode = {}));
 const numberOrder = [1, 2, 3];
-// Tulples 
 function greet(person) {
     return `Hello ${person.name}, age is ${person.age}`;
 }
