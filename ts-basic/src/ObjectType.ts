@@ -33,7 +33,7 @@ const numberOrder: number[] = [1, 2, 3]
 function greet (person: Person) {
   return `Hello ${person.name}, age is ${person.age}`
 }
-console.log(greet({ name: 'davit', age: 33 }))
+// console.log(greet({ name: 'davit', age: 33 }))
 
 function print (mhs: Mhs) {
   return `Hello ${mhs.name}, age is ${mhs.age} and email is ${mhs.email}`

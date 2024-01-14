@@ -15,7 +15,7 @@ const numberOrder = [1, 2, 3];
 function greet(person) {
     return `Hello ${person.name}, age is ${person.age}`;
 }
-console.log(greet({ name: 'davit', age: 33 }));
+// console.log(greet({ name: 'davit', age: 33 }))
 function print(mhs) {
     return `Hello ${mhs.name}, age is ${mhs.age} and email is ${mhs.email}`;
 }
